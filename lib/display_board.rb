@@ -1,5 +1,3 @@
-board = [" "," "," "," "," "," "," "," "," "]
-
 def display_board(board)
   line = "|"
   row = "-----------"
@@ -9,8 +7,9 @@ def display_board(board)
   puts "#{board[3]} #{line} #{board[4]} #{line} #{board[5]}"
   puts "#{row}"
   puts "#{board[6]} #{line} #{board[7} #{line} #{board[8]}"
-  puts "#{row}"
 end
+
+board = [" "," "," "," "," "," "," "," "," "]
 
 
 
