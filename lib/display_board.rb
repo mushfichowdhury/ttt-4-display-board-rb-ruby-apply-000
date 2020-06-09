@@ -1,8 +1,6 @@
 def display_board(board)
   line = "|"
   row = "-----------"
-  board = [" "," "," "," "," "," "," "," "," "]
-
   
   puts "#{board[0]} #{line} #{board[1]} #{line} #{board[2]}"
   puts "#{row}"
@@ -11,6 +9,7 @@ def display_board(board)
   puts "#{board[6]} #{line} #{board[7} #{line} #{board[8]}"
 end
 
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
 board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
