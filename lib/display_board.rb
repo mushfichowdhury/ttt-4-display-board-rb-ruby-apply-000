@@ -13,8 +13,8 @@ def display_board(board)
   line = "|"
   row = "-----------"
   
-  puts "#{board[0]} #"
-  puts "-----------"
+  puts "#{board[0]} #{line} #{board[1]} #{line} #{board[2]}"
+  puts "#{row}"
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
