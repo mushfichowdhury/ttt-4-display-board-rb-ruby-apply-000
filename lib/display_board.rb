@@ -7,7 +7,10 @@ def display_board(board)
   puts "-----------"
   puts "#{board[6]} | #{board[7} | #{board[8]}"
 
-  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+end
+
+
+# board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
   board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
   board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
@@ -16,4 +19,3 @@ def display_board(board)
   board = [" ", " ", "O", " ", "O", " ", "O", " ", " "]
   board = ["X", "X", "X", "X", "O", "O", "X", "O", "O"]
   board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]  
-end
