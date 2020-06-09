@@ -10,8 +10,10 @@ end
 board = [" "," "," "," "," "," "," "," "," "]
 
 def display_board(board)
+  line = "|"
+  row = "-----------"
   
-  puts "   |   |   "
+  puts "#{board[0]} #"
   puts "-----------"
   puts "   |   |   "
   puts "-----------"
